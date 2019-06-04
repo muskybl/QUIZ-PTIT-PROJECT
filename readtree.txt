@@ -1,0 +1,277 @@
+
+BAS1143@
+marthar is wearing ... beautiful black dress her uncle bought her.@
+any@
+an@
+some@
+the@4
+BAS1102@
+da@
+sd@
+as@
+d@
+as@1
+BAS1143@
+he was found guilty ... possessing illegal drugs@
+with@
+in@
+from@
+of@4
+INT1323@
+Bo dong xu ly toan hoc co chuc nang giup CPU xu li?@
+Phep toan so hoc va logic@
+Pep toan so hoc va dau cham dong@
+Phep toan luong giac@
+Ca 3 dap an con lai deu dung@4
+BAS1102@
+@
+@
+@
+@
+@0
+BAS1102@
+Duoi che do thuc dan phong kien, giai cap nong dan Viet Nam co nhung buc thiet gi?@
+Doc lap dan toc@
+Ruong dat@
+Quyen binh dang nam nu@
+Duoc giam to, giam thue@1
+BAS1102@
+das@
+d@
+as@
+@
+das@1
+BAS1102@
+fsd@
+f@
+sd@
+fs@
+d@1
+BAS1102@
+das@
+d@
+as@
+d@
+as@1
+BAS1143@
+There was so ... on the highway that we couldn't even go half the speed limit.@
+much traffics@
+much traffic@
+many traffic@
+many traffics@2
+BAS1143@
+We stayed ... all night@
+wake@
+waken@
+to wake@
+awake@4
+BAS1143@
+There were too ... problems for us to solve in a day.@
+many@
+little@
+much@
+small@1
+BAS1143@
+I have just finished ... assignment@
+a thirty pages@
+thirty-page@
+thirty pages@
+a thirty-page@4
+BAS1143@
+Of all the cars displayed here, this one uses the ... gas.@
+few@
+fewer@
+less@
+least@4
+BAS1143@
+my uncle works as a cook ... prison, but my aunt wants him to work as a chef in a   hotel.@
+in@
+in a@
+in the@
+in some@2
+BAS1143@
+A large ... of sewage was dumped into the river.@
+lot@
+number@
+amount@
+plenty@3
+BAS1143@
+some metals are magnetic and ... aren't@
+other@
+another@
+others@
+others metals@3
+BAS1102@
+da@
+sd@
+a@
+sd@
+as@1
+BAS1102@
+das@
+d@
+as@
+d@
+as@1
+BAS1143@
+he seems to have cut ... shaving this moring.@
+him@
+himselft@
+his@
+he@2
+BAS1143@
+his wife is said to do a supermarket@
+bring@
+run@
+shop@
+do@4
+BAS1102@
+fs@
+df@
+sd@
+f@
+sd@1
+BAS1143@
+some people don't mind paying ... price to get quality products.@
+the double@
+double the@
+as double as@
+as the double@2
+BAS1102@
+@
+das@
+d@
+as@
+das@0
+BAS1102@
+Phap khai thac thuoc dia lan thu nhat khi nao?@
+1858-1884@
+1884-1896@
+1896-1913@
+1914-1918@3
+BAS1143@
+Could i borrow ... pen so that i can finish the test?@
+the@
+a@
+some@
+an@2
+BAS1102@
+das@
+f@
+asd@
+f@
+d@1
+BAS1143@
+When i saw her last night, she was talking to ... loudly.@
+themselves@
+hers@
+herself@
+she@3
+BAS1143@
+At the exposition, there was a large collection of various ... that drew the public's interest@
+machineries@
+machine@
+mechanical@
+machines@4
+BAS1102@
+what is the most important in your whole life?@
+money.@
+animal@
+dreams@
+motivation@4
+BAS1143@
+Despite its importance, only ... people attended the general meeting.@
+few@
+little@
+a few@
+a little@3
+BAS1102@
+d@
+as@
+d@
+as@
+d@0
+BAS1102@
+d@
+as@
+d@
+as@
+d@0
+BAS1102@
+das@
+d@
+as@
+d@
+a@1
+BAS1143@
+Let's wait for ... ten minutes@
+more@
+another@
+an amount of@
+every@2
+BAS1102@
+kfodsko@
+fs@
+df@
+sd@
+f@1
+BAS1143@
+As far as i know, he doesn't have ... friends.@
+much@
+many@
+quite a little@
+another@2
+BAS1143@
+sorry to say, ... book contains anything that you've been looking for.@
+much@
+many@
+either@
+neither@4
+@
+@
+@
+@
+@
+@0
+BAS1102@
+da@
+sd@
+as@
+d@
+a@1
+BAS1102@
+d@
+asd@
+a@
+sd@
+as@1
+BAS1143@
+... parties were satisfied with the contract terms.@
+Either@
+One@
+Both@
+Any@3
+BAS1143@
+The couple bought ... before they got married@
+a lot of furnitures@
+a lot of furniture@
+many furniture@
+many furnitures@2
+BAS1143@
+Let's be ... and accept his offer@
+really@
+realism@
+realistic@
+realized@3
+BAS1102@
+eqw@
+e@
+qw@
+e@
+qw@1
+BAS1102@
+d@
+as@
+d@
+as@
+d@1
