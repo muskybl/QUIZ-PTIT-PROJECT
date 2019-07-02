@@ -498,7 +498,7 @@ struct Class
 	bool input_class(int, int, int &);
 	bool is_existed(string);
 	void change_class(Class);
-	bool insert_student_to_class(Student);
+	void insert_student_to_class(Student);
 	void show(int, int);
 	void show_listscores(int, int, int, int,string);
 	void delete_info_class();
@@ -532,7 +532,7 @@ void Class :: change_class(Class change)
 	classId = change.classId;
 	className = change.className;
 }
-bool Class :: insert_student_to_class(Student data)
+void Class :: insert_student_to_class(Student data)
 {
 	listStudent.insert_student(data);
 }
@@ -695,7 +695,6 @@ void ListClass :: changeinfo_student(int posClass, int posStudent, int x, int y)
 	Student st;
 	node<Student> *findMyid;
 	node<Student> *p;
-	int i = 0;
 	int option = -1;
 	bool n;
 	int wClass;
@@ -887,6 +886,7 @@ void Exam:: write_exam(ofstream &file)
 
 class ListExam : public List<Exam>
 {
+	
 	public:
 	string subId; // ma mon hoc cua de thi
 	int total; // tong so de thi
@@ -896,7 +896,7 @@ class ListExam : public List<Exam>
 	}
 	node<Exam> *find_exam(int posExam)
 	{
-		find(posExam);
+		return find(posExam);
 	}
 	void insert_exam(int, int);
 	void show_list_exam(int, int, int, int);
@@ -974,7 +974,6 @@ void ListExam::delete_exam(int x, int y, int pos)
 	string title = "!!! XOA DE THI !!!";
 	string mess1 = "XOA THANH CONG !";
 	string mess2 = "XOA THAT BAI !";
-	int i = 0;
 	bool n;
 	string idSubject;
 	node<Exam> *p = find(pos);
@@ -1070,7 +1069,7 @@ class ListSubject : public List<Subject>
 {
 	public:
 	int numberSubject = 0;
-	node<Subject> *find_subject(int posSubject) {find(posSubject);}
+	node<Subject> *find_subject(int posSubject) {return find(posSubject);}
 	
 	void insert_subject(int, int);
 	void change_subject(ListClass &, int, int, int); // test done
@@ -1123,7 +1122,6 @@ void ListSubject :: change_subject(ListClass &lc, int x, int y, int posSubject) 
 	Subject sub;
 	int n;
 	int option = -1;
-	int f = -1;
 	string title = "!!!   SUA MON HOC  !!!";
 	string mess1 = "SUA THANH CONG !";
 	string mess2 = "SUA THAT BAI !";
@@ -1159,7 +1157,6 @@ void ListSubject :: dele_subject(ListClass &lc, int x, int y,int posSubject) // 
 	string title = "!!! XOA MON HOC !!!";
 	string mess1 = "XOA THANH CONG !";
 	string mess2 = "XOA THAT BAI !";
-	int i = 0;
 	bool n;
 	string idSubject;
 	node<Subject> *p = find(posSubject);

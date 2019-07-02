@@ -1,7 +1,7 @@
 #include <conio.h>
 #include <stdio.h>
 #include <stdlib.h>
-#include <dos.h>
+#include <direct.h>
 #include <windows.h>
 
 void gotoxy(short x,short y)

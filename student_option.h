@@ -1,10 +1,10 @@
 
 /* ####################			Step 1			#################### */
-int student_option(int x, int y)
-{
-	student_window();
+// int student_option(int x, int y)
+// {
+// 	student_window();
 	
-}
+// }
 void start_exam(int, int, int, int, node <Student> *st); // x, y, posQuestion
 
 void st_subject_option(int, int, node <Student> *);

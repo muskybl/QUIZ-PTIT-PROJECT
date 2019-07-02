@@ -359,7 +359,7 @@ void del_letter(int x, int y, int max, int &number, int &pos, string &data,bool 
 		gotoxy(x + pos % max, y + pos / max);
 	}
 }
-void clear(int x, int y, int max, int &number, int &pos,string &data)
+void clear(int x, int y, int max, int &number, string &data)
 {
 	gotoxy(x,y);
 	data.assign(number + 1,'\0');		// set value of string become empty
@@ -439,13 +439,13 @@ void input_info(int x, int y, int maxN, int maxL, string &data, bool encrypt, bo
 					case RIGHT: right_moving_cursor(x, y, position, number); break;
 					case UP: break;
 					case DOWN: break;
-					case DEL: clear(x, y, maxL, number, position, data); break;
+					case DEL: clear(x, y, maxL, number, data); break;
 				}
 			} break;
 			case 0: catchKey = getch(); break; // except f1, f2, ... case (contain zero value )
 			case ENTER: data.resize(number); return; // end
 			case BACKSPACE: del_letter(x, y, maxL, number, position, data, encrypt); break; // delete 1 char
-			case ESC: clear(x, y, maxL, number, position, data); return; //	Delete All
+			case ESC: clear(x, y, maxL, number, data); return; //	Delete All
 			default : 
 			{
 				if(number < maxN) // number < max length of string

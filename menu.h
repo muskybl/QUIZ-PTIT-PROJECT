@@ -295,7 +295,6 @@ bool notify(int x, int y, string info)
 {
 	gotoxy(x, y);
 	ShowConsoleCursor(0);
-	int option;
 	color_rectangle(x ,y , 32, 7, 0);
 	show_rectangle(x + 1, y + 1, 29, 3); // title box
 	insert_title(x, y + 1, WHITE, 29, 3, info); // title mess
@@ -307,9 +306,7 @@ bool show_result_info(int x, int y, string info, float score, int correct, int t
 	ShowConsoleCursor(0);
 	string ans[] = {"Thi tiep","Thoat "};
 	Button r[2];
-	int option;
-	cout << fixed;
-	cout << setprecision(2);
+	cout << fixed << setprecision(2);
 	
 	color_rectangle(x ,y , 32, 9, 0);
 	show_rectangle(x + 1, y + 1, 29, 4); // title box

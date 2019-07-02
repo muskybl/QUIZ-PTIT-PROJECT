@@ -83,7 +83,7 @@ void question_instruction()
 	gotoxy(4, 7);
 	cout << "3. DELETE: Xoa cau hoi.";
 	gotoxy(4, 8);
-	cout << "4.F8: Sua cau hoi.";
+	cout << "4.F7: Sua cau hoi.";
 }
 void exam_instruction()
 {

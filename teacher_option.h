@@ -57,7 +57,7 @@ int teacher_option(int x, int y)
 		else return teacher_choice;	
 	}
 }
-int student_option(int x, int y, node<Student> *student)
+int student_option(int x, int y)
 {
 	ShowConsoleCursor(0);
 	int student_choice;
@@ -157,7 +157,7 @@ void edit_info_st_option(int posClass, int posStudent)
 
 void student_option(int posClass) // 4
 {
-	int front, rear, number, pages, n, posStudent, option;
+	int front, rear, number, pages, posStudent, option;
 	pages = 1;
 	option = -1;
 	posStudent = 0;
@@ -213,7 +213,7 @@ void edit_info_class_option(int pos)
 void class_option() // 4
 {
 	system("cls");
-	int front, rear, number, n, posClass, pages, option;
+	int front, rear, number, posClass, pages, option;
 	pages = 1;
 	option = -1;
 	posClass = 0;
@@ -280,9 +280,8 @@ void choose_class(string m) // 4
 {
 	system("cls");
 	teacher_window();
-	int pages, front, rear, number, posClass, n, option;
+	int pages, front, rear, number, posClass, option;
 	pages = 1;
-	n = 0;
 	show_listClass_instruction();
 	while(1)
 	{
@@ -303,9 +302,8 @@ void show_scores(string m, int posClass, int posSubject) // 4
 {
 	system("cls");
 	teacher_window();
-	int pages, front, rear, number, posStudent, n, option;
+	int pages, front, rear, number, posStudent, option;
 	pages = 1;
-	n = 0;
 	string subId = ls.find_subject(posSubject)->data.subjectId;
 	string subName = ls.find_subject(posSubject)->data.subjectName;
 	show_listStudent_instruction();

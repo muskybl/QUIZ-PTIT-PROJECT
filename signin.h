@@ -61,7 +61,6 @@ void find_user(string user, string pass) // define who is user ?
 void sign_in()
 {
 	resizeConsole(1100, 630);
-	node<Student> *st;
 	string user, pass;
 	loggin_console();
 	
