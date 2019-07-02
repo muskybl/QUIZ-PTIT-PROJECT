@@ -1,4 +1,4 @@
-# QUIZ-PTIT-PROJECT
+# QUIZ-PTIT-PROJECT (The last update)
 Bài tập lớn: Thi trắc nghiệm PTIT HCM
 # Giới thiệu
 1. Phần mềm viết bằng C++, giao diện console củ chuối.
